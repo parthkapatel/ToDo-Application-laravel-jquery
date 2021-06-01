@@ -1,0 +1,66 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: White;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.nav-links {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: orange;
+}
+
+.sidenav .btnClose {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.btnClose,.btnOpen,.btnDateIcon{
+    cursor: pointer;
+}
+.active{
+    color:orange;
+}
+.nav-links{
+    text-decoration: none;
+}
+.nav-links:hover{
+    text-decoration: none;
+}
+.ui-datepicker{
+    width:auto;
+}
+.bottomDiv{
+    position: absolute;
+    bottom:0;
+    cursor: pointer;
+}
+#cardMainDiv{
+    height: 510px;
+    overflow-y: auto;
+}
+.btnFloating{
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    z-index: 1;
+}
+.btnFloating i{
+    font-size: 50px;
+    cursor: pointer;
+}

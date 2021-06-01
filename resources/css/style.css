@@ -1,0 +1,10 @@
+.sidebar{
+    left:0;
+}
+.navbar-collapse{
+    left: 0;!important;
+}
+.left-arrow{
+    width:64px;
+    height: 64px;
+}
